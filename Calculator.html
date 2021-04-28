@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+
+
+</head>
+
+<body>
+    <div class="content">
+        <input id="myScreen" readonly>
+
+
+        <div>
+            <button onclick="geniusNomeroUno()">Keto</button>
+            <button onclick="clearing()">C</button>
+            <button onclick="backspace()">
+                <= </button>
+                    <button onclick="operationClick('/')">/</button>
+        </div>
+
+        <div>
+            <button onclick="clickDigitOrDot(7)">7</button>
+            <button onclick="clickDigitOrDot(8)">8</button>
+            <button onclick="clickDigitOrDot(9)">9</button>
+            <button onclick="operationClick('X')">X</button>
+        </div>
+
+        <div>
+            <button onclick="clickDigitOrDot(4)">4</button>
+            <button onclick="clickDigitOrDot(5)">5</button>
+            <button onclick="clickDigitOrDot(6)">6</button>
+            <button onclick="operationClick('-')">-</button>
+        </div>
+        <div>
+            <button onclick="clickDigitOrDot(1)">1</button>
+            <button onclick="clickDigitOrDot(2)">2</button>
+            <button onclick="clickDigitOrDot(3)">3</button>
+            <button onclick="operationClick('+')">+</button>
+        </div>
+        <div>
+            <button onclick="negate()">+/-</button>
+            <button onclick="clickDigitOrDot(0)">0</button>
+            <button onclick="clickDigitOrDot('.')">.</button>
+            <button onclick="equals()">=</button>
+        </div>
+
+
+
+    </div>
+    <script src="typescript.js"></script>
+</body>
+
+
+
+</html>
